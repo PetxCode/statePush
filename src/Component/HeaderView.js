@@ -25,7 +25,9 @@ const HeaderView = () => {
         <Link to="/state" style={{ textDecoration: "none", color: "white" }}>
           State Management
         </Link>
-        <Button>Donate</Button>
+        <Button>
+          <Link to="/add">Add team</Link>
+        </Button>
       </Header>
     </div>
   );
